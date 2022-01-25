@@ -1,4 +1,12 @@
-
+body{
+    background-color: #ffffff;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+p, span, strong, a, input, textarea, li{
+    font-family: 'Cambay', sans-serif;
+}
 
 
 /* navbar */
@@ -83,7 +91,26 @@ background-color:#acd1af ;
 
    border: 2px solid black;
 }
-
+/* contact */
+.contact h1{
+    background-color: #e1f5e1;
+    color: #315a39;
+}
+.contact input, textarea{
+    margin: 10px 0px;
+    resize: none;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(211, 235, 207);
+   
+}
+.contact button{
+    background-color: #7a9f79;
+    color: white; 
+}
+.contact button:hover{
+    background-color:#579449;
+}
 /* footer */
 footer{
     background-color:#0b1a0e;
@@ -127,6 +154,12 @@ footer small{
     #Packages .card{
        
         width: 75%;
+    }
+    .contact .contact-parent {
+        flex-direction: column;
+    }
+    .contact .contact-parent address{
+        margin-top: 100px;
     }
 
   } 

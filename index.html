@@ -9,6 +9,10 @@
 
     <!-- favicon link -->
     <link rel="icon" type="" href="images/pngwing.com.png">
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cambay&family=Poppins:wght@500&display=swap" rel="stylesheet">
     <!-- fontawesome cdn -->
     <script src="https://kit.fontawesome.com/05678147da.js" crossorigin="anonymous"></script>
     <!-- bootstrap stylesheet -->
@@ -20,14 +24,15 @@
 </head>
 
 <body>
-    <!-- header start -->
+    <!----------------
+        header start 
+    --------------------->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/pngwing.com.png" alt="" width="30" height="">
                     <strong>Gazipur Convention Hall</strong>
-
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,20 +44,22 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item fw-bold  px-3">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#Hot-deals">Hot Deals</a>
                         </li>
                         <li class="nav-item fw-bold  px-3">
-                            <a class="nav-link" href="#">Hot Deals</a>
+                            <a class="nav-link" href="#faq">Ask</a>
                         </li>
                         <li class="nav-item fw-bold  px-3">
-                            <a class="nav-link">Contact Us</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <!-- Carousel banner start -->
+        <!------------------------
+            Carousel banner start
+        ------------------------- -->
         <section class="container-fluid  banner">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -106,10 +113,15 @@
         </section>
     </header>
 
-    <!-- main start -->
+
+    <!-----------------
+        main start 
+    -------------------->
     <main>
 
-        <!-- toast part is start from here -->
+        <!-----------------------
+            toast part is start
+        --------------------------->
         <div class="toast show">
             <div class="toast-body d-flex align-items-center fw-bold">
                 <button type="button" class="btn-close mx-2" data-bs-dismiss="toast"></button>
@@ -118,8 +130,10 @@
         </div>
 
 
-        <!-- Pakage part start -->
-        <section class="package my-5">
+        <!---------------------- 
+            Pakage part start 
+        ------------------------->
+        <section class="package my-5" id="Hot-deals">
             <h1 class="text-center my-5 py-2">Our Package</h1>
             <section class="container my-5" id="Packages">
 
@@ -242,22 +256,24 @@
         </section>
 
 
-        <!-- our decoration video section -->
+        <!------------------ 
+           Decoration video section
+        --------------------------- -->
         <section class="decoration my-5">
             <h1 class="text-center  my-5 py-2">Our Decoration Video</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <video width="100%" controls="" autoplay="" muted="" src="video/decoration.mp4"></video>
-
                     </div>
-
                 </div>
             </div>
         </section>
 
-        <!-- faq part is start -->
-        <section id="FAQ" class="faq my-5">
+        <!----------------------
+            faq part start 
+        -------------------------->
+        <section id="faq" class="faq my-5">
             <h1 class="text-center  my-5 py-2">Frequently Asked Questions</h1>
             <div class="container">
                 <div class=" mb-5 d-flex justify-content-center text-center align-items-center">
@@ -329,40 +345,74 @@
                 </div>
             </div>
         </section>
+        <!--------------------------- 
+            contact section 
+        ------------------------->
+        <section class=" contact" id="contact">
+            <h1 class="text-center  my-5 py-2">Contact Us </h1>
+            <div class="contact-parent d-flex justify-content-around align-items-center">
+
+                <div class=" contact-form  ">
+                    <form action="">
+                        <input type=" text" placeholder="Your Name"><br>
+                        <input type="email" placeholder="Your Email"><br>
+                        <textarea placeholder="write your massage" name="massage" id="" cols="30"
+                            rows="10"></textarea><br>
+                        <button class="btn" type="submit">Send</button>
+                        <button class="btn" type="reset">Cancel</button>
+                    </form>
+                </div>
+
+                <address class="">
+                    <h5>Location</h5>
+                    <p>New York 008789 Street DC</p>
+                    <h5>Phone</h5>
+                    <p>0187783580</p>
+                    <h5>Email</h5>
+                    <p>mahmodulshahin665@gmail.com</p>
+
+                </address>
+            </div>
+        </section>
+
     </main>
 
-    <!-- footer start -->
+    <!----------------------
+        footer start 
+    --------------------------->
     <footer class="footer  mt-5 py-5">
         <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md-8">
-                    <p class="text-light">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-8">
+                    <p class="text-light text-center">
                         &copy; All right reserved to Mahmodul Shahin
                     </p>
                 </div>
-                <div class="col-md-4 getAppSection">
-                    <h3 class=" text-decoration-none text-white">
+                <div class=" col-sm-12 col-md-4 getAppSection">
+                    <h3 class=" text-decoration-none text-white text-center">
                         Get the app
                     </h3>
-                    <a class="text-decoration-none text-white" target="_blank" href="https://www.apple.com/itunes/">
-                        <div class="getApp d-flex align-items-center my-3">
-                            <i class="fab fa-apple ps-4" aria-hidden="true"></i>
-                            <div class="mx-3">
-                                <small>Get it on</small><br>
-                                <small class="fs-6">App Store</small>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <a class="text-decoration-none text-white" target="_blank" href="https://www.apple.com/itunes/">
+                            <div class="getApp d-flex align-items-center my-3">
+                                <i class="fab fa-apple ps-4" aria-hidden="true"></i>
+                                <div class="mx-3">
+                                    <small>Get it on</small><br>
+                                    <small class="fs-6">App Store</small>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                    <a class="text-decoration-none text-white" target="_blank"
-                        href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars">
-                        <div class="getApp d-flex align-items-center ">
-                            <img class="ps-3" src="icons/google-play.png" alt="">
-                            <div class="mx-3 col-8">
-                                <small>Get it on</small><br>
-                                <small class="fs-6">Play Store</small>
+                        </a>
+                        <a class="text-decoration-none text-white" target="_blank"
+                            href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars">
+                            <div class="getApp d-flex align-items-center ">
+                                <img class="ps-3" src="icons/google-play.png" alt="">
+                                <div class="mx-3 col-8">
+                                    <small>Get it on</small><br>
+                                    <small class="fs-6">Play Store</small>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
 
                 </div>
             </div>
