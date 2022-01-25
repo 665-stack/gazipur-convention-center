@@ -3,11 +3,17 @@
 .carousel-caption button{
    color: blue;
 }
+.custom-card-style{
+    background-color:rgb(207, 99, 99) ;
+}
 .carousel-caption button:hover{
    background-color: rgb(207, 99, 99);
    color: white;
     
 
+}
+#hightlight-card, i{
+    color: white;
 }
 @media only screen and (max-width: 600px) {
      .banner .carousel-caption {
