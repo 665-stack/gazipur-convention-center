@@ -1,0 +1,25 @@
+
+
+.carousel-caption button{
+   color: blue;
+}
+.carousel-caption button:hover{
+   background-color: rgb(207, 99, 99);
+   color: white;
+    
+
+}
+@media only screen and (max-width: 600px) {
+     .banner .carousel-caption {
+       /* background-color: lightblue;  */
+      position:absolute;
+
+    }
+    .banner .carousel-caption h1{
+        font-size: 25px;
+    }
+    .banner .carousel-caption button{
+        
+    }
+
+  } 
