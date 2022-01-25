@@ -3,18 +3,42 @@
 .carousel-caption button{
    color: blue;
 }
-.custom-card-style{
-    background-color:rgb(207, 99, 99) ;
+.card{
+    transition: transform 0.4s;
 }
-.carousel-caption button:hover{
-   background-color: rgb(207, 99, 99);
-   color: white;
-    
+.card:hover{
+   transform: scale(0.97);
+}
+.card button:hover{
+background-color: rgb(231, 221, 221);
 
 }
-#hightlight-card, i{
+.custom-card-style{
+    background-color:rgb(207, 99, 99) ;
     color: white;
 }
+.little-btn{
+    background-color: rgb(207, 55, 0);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    position: relative;
+   
+    position: absolute;
+    /* z-index: 10;  */
+     right: 0;
+    top: -12px;
+}
+
+.carousel-caption button:hover{
+  
+
+}
+.card-body i{
+    color: black;
+}
+
+
 @media only screen and (max-width: 600px) {
      .banner .carousel-caption {
        /* background-color: lightblue;  */
