@@ -3,14 +3,25 @@
 .carousel-caption button{
    color: blue;
 }
+/* toast section */
+.toast{
+    position: absolute;
+    
+    right: 0;
+}
+/* pakage section */
 .card{
     transition: transform 0.4s;
 }
 .card:hover{
-   transform: scale(0.97);
+   transform: scale(1.03);
+}
+.custom-btn{
+background-color: rgb(238, 208, 208);
+
 }
 .card button:hover{
-background-color: rgb(231, 221, 221);
+background-color: rgb(228, 227, 227);
 
 }
 .custom-card-style{
@@ -40,6 +51,9 @@ background-color: rgb(231, 221, 221);
 
 
 @media only screen and (max-width: 600px) {
+    .banner img{
+        height: 50vh;
+    }
      .banner .carousel-caption {
        /* background-color: lightblue;  */
       position:absolute;
@@ -50,6 +64,15 @@ background-color: rgb(231, 221, 221);
     }
     .banner .carousel-caption button{
         
+    }
+    #Packages .row .col-lg-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #Packages .card{
+       
+        width: 75%;
     }
 
   } 
