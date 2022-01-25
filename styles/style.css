@@ -1,5 +1,6 @@
 
 
+
 /* navbar */
 .navbar{
     background-color:#acd1af;
@@ -16,16 +17,19 @@
      font-weight: 500;
 }
 .carousel-caption button:hover{
-    background-color: #d4d6d4;
+    background-color: #e1f5e1;
     
 }
 /* toast section */
 .toast{
     position: absolute;
-    
     right: 0;
 }
 /* pakage section */
+.package h1{
+    background-color: #e1f5e1;
+    color: #315a39;
+}
 .card{
     transition: transform 0.4s;
 }
@@ -33,15 +37,16 @@
    transform: scale(1.03);
 }
 .custom-btn{
-background-color: rgb(238, 208, 208);
+background-color: #7a9f79;
+color: white;
 
 }
 .card button:hover{
-background-color: rgb(228, 227, 227);
+background-color:#acd1af ;
 
 }
 .custom-card-style{
-    background-color:rgb(207, 99, 99) ;
+    background-color:#315e26 ;
     color: white;
 }
 .little-btn{
@@ -49,33 +54,39 @@ background-color: rgb(228, 227, 227);
     color: #fff;
     border-radius: 10px;
     padding: 5px 10px;
-    position: relative;
-   
     position: absolute;
-    /* z-index: 10;  */
      right: 0;
     top: -12px;
 
 }
-
-
-.carousel-caption button:hover{
-  
-
+.other-card{
+    background-color: #e1f5e1 !important;
 }
 .card-body i{
     color: black;
 }
+/* decoration */
+.decoration h1{
+    background-color: #e1f5e1;
+    color: #315a39;
+}
+/* Faq */
+.faq h1{
+    background-color: #e1f5e1;
+    color: #315a39;
+}
 .customFAQ{
-    background-color: rgba(250, 237, 237, 0.678);
+    background-color: #e1f5e1
 }
 .customFAQ button{
+    background-color: #dbe7da;
+
    border: 2px solid black;
 }
 
 /* footer */
 footer{
-    background-color: rgb(6, 2, 22);
+    background-color:#0b1a0e;
 }
 footer .getApp{
     width: 150px;
@@ -102,15 +113,11 @@ footer small{
         height: 50vh;
     }
      .banner .carousel-caption {
-       /* background-color: lightblue;  */
       position:absolute;
 
     }
     .banner .carousel-caption h1{
         font-size: 25px;
-    }
-    .banner .carousel-caption button{
-        
     }
     #Packages .row .col-lg-3{
         display: flex;
