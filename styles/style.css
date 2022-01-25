@@ -1,7 +1,23 @@
 
 
+/* navbar */
+.navbar{
+    background-color:#acd1af;
+}
+
+.navbar li > a:hover{
+    background-color:#579449;
+    border-radius: 4px;
+    color: white;
+}
+
 .carousel-caption button{
-   color: blue;
+     background-color: #acd1af;
+     font-weight: 500;
+}
+.carousel-caption button:hover{
+    background-color: #d4d6d4;
+    
 }
 /* toast section */
 .toast{
@@ -57,14 +73,24 @@ background-color: rgb(228, 227, 227);
    border: 2px solid black;
 }
 
+/* footer */
+footer{
+    background-color: rgb(6, 2, 22);
+}
 footer .getApp{
-    width: 120px;
+    width: 150px;
    border: 1px solid white;
    border-radius: 10px;
-   text-align: justify;
+   text-align: left;
+   background-color: black;
 }
-footer i {
+footer i{
     font-size: 25px;
+}
+footer img{
+    width: 50px;
+    margin: 0;
+    padding: 0;
 }
 footer small{
     font-size: 13px;
